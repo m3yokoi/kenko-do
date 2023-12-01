@@ -21,7 +21,7 @@ img {
 section {
     max-width: 600px;
     margin: 0 auto;
-    padding: 100px 30px 0 30px;
+    padding: 0px 30px ;
 }
 
 h2 {
@@ -52,7 +52,7 @@ header {
     width: 100%;
     height: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     top: 0;
@@ -187,6 +187,10 @@ h1 img {
 
 /* about */
 
+#about {
+margin: 60px auto;
+}
+
 .main-comment p,
 details p {
     text-indent: 1em;
@@ -242,6 +246,11 @@ details[open] summary {
 
 /* menu */
 
+#menu {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0;
+}
 
 .wide-wrapper {
     width: 100%;
@@ -258,8 +267,6 @@ details[open] summary {
     overflow: hidden;
 }
 
-
-
 .price {
     padding: 0 30px;
     font-size: 110%;
@@ -271,7 +278,6 @@ details[open] summary {
     top: 30px;
     right: 30px;
 }
-
 
 .item {
     border: 1px solid #aaa;
@@ -317,10 +323,7 @@ details[open] summary {
     gap: 30px;
 }
 
-#menu {
-    padding-bottom: 50px;
-    margin-bottom: 0;
-}
+
 
 
 /* ↓ホバー時 */
