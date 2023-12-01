@@ -188,7 +188,7 @@ h1 img {
 /* about */
 
 #about {
-margin: 60px auto;
+margin: 60px auto 30px auto;
 }
 
 .main-comment p,
@@ -208,7 +208,7 @@ summary {
     font-weight: bold;
     margin: 15px 0;
     text-indent: -1em;
-    padding: 10px 0 0 1em;
+    padding: 10px 0 0 1.8em;
     background: url(image/click.png) no-repeat left top;
 
     text-decoration: underline;
@@ -230,6 +230,7 @@ summary:hover {
 
 details[open] summary {
     opacity: 1;
+    margin-bottom: 10px;
 }
 
 @media(min-width:769px) {
