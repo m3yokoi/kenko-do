@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- 独自css -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>KENKO-DO</title>
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="#"><img src="image/kenko-do_logo.svg" alt="健康堂"></a></h1>
+        <img src="image/menu.png" alt="" class="js-btn">
+        <nav>
+            <ul class="gnav">
+                <li><a href="#news">News</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#shop">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="bg-logo">
+            <p>
+                からだの中から、美しく健康に。<br>
+                Juice stand
+            </p>
+            <h1><img src="image/logo_hero.png" alt="健康堂"></h1>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <section id="news">
+            <h2>News</h2>
+            <div class="news_container">
+                <dl>
+                    <div class="news_post">
+                        <dt>
+                            <time datetime="2023-10-01">2023.10.01</time>
+                        </dt>
+
+                        <dd>新フレーバー「フレッシュグリーンミックス」登場しました！</dd>
+                    </div>
+                    <div class="news_post">
+                        <dt>
+                            <time datetime="2023-09-10">2023.09.10</time>
+                        </dt>
+                        <dd>夕日放送テレビ『ハナ子のゆるさんぽ』で当店が紹介されました♪</dd>
+                    </div>
+                    <div class="news_post">
+                        <dt>
+                            <time datetime="2023-07-31">2023.07.31</time>
+                        </dt>
+                        <dd>お盆期間中の営業時間変更について</dd>
+                    </div>
+                </dl>
+                <button class="news_more">more</button>
+            </div>
+        </section>
+    </div>
+
+    <section id="about">
+        <h2>About Us</h2>
+
+        <div class="main-comment">
+            <div class="bg"><img src="image/about-bg.jpeg" alt=""></div>
+            <div class="about_text-group">
+                <p>忙しい現代社会に生きる私たちには、心身ともにリラックスできる時間はそう多くありません。でも、少し立ち止まって一杯のフルーツジュースを飲めば、きっと気持ちがリフレッシュするはずです。</p>
+                <p>こころとからだをリセットし、新しい自分で明日を迎える。</p>
+                <p>あなたが「健康」を「為す」助けになれるようにと願いを込めて、健康堂は今日もジュースを絞ります。</p>
+            </div>
+        </div>
+
+        <details>
+            <summary>
+                私たちのこだわり――『コールドプレスジュース』
+            </summary>
+            <p>一般的なジューススタンドのフレッシュジュースは、皮を取り除いた野菜や果実をミキサーに入れて、高速回転で果汁を絞ります。
+                一方私たちのコールドプレスジュースは、専用マシンに野菜・果実をそのまま入れ、ゆっくり強い圧力をかけて果汁を絞り出します。</p>
+            <p>コールドプレスジュースは高速回転のミキサーと異なり、ジュースを作る過程で熱を発生させないため、熱に弱い酵素や栄養素も失われず絞り出すことが可能になります。
+                そのため、野菜や果物のポテンシャルが最大限に生きたままのジュースが作れるのです。</p>
+        </details>
+        <details>
+            <summary>一杯に一日分以上の野菜＆果物</summary>
+            <p>一日に必要な野菜の摂取目標は350gです。健康堂のジュースは、一番小さなサイズで一杯350ml。ジュースにする前の重さでは、なんと1000g以上にもなります！
+                普段なかなかオーバーできない野菜や果物を効率的に、おいしく摂取することができます。</p>
+            <p>また、生きた酵素を取り入れることで体内環境の改善、新陳代謝をUPさせることで健康・美容面の効果が期待できます。</p>
+        </details>
+    </section>
+
+
+    <div class="wide-wrapper">
+        <section id="menu">
+            <h2>Menu</h2>
+            <div class="menu-attention">
+                <p>テイクアウトのみの提供となります。（価格はすべて税込み）</p>
+                <div class="flex">
+                    <div class="price_container">
+                        <img src="image/menu-image.jpg" class="menu-img" alt="">
+                        <ul class="price">
+                            <li>(Sサイズ)：450yen</li>
+                            <li>(Mサイズ)：500yen</li>
+                            <li>(Lサイズ)：550yen</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <p>写真にカーソルを合わせると、各フレーバーの材料をご覧いただけます。</p>
+            </div>
+
+            <div class="menu-item">
+                <div class="item g-j"><span class="new_mark">NEW!</span><img src="image/green_juice.png" alt="フレッシュグリーンミックス"></div>
+                <div class="item p-j"><img src="image/purple_juice.png" alt="グロッシーパープルミックス"></div>
+                <div class="item y-j"><img src="image/yellow_juice.png" alt="ナチュラルイエローミックス"></div>
+                <div class="item r-j"><img src="image/red_juice.png" alt="エネルギッシュレッドミックス"></div>
+            </div>
+        </section>
+    </div>
+    <div class="nami"></div>
+
+    <div class="wrapper">
+        <section id="shop">
+            <h2>Shop</h2>
+
+
+            <div class="flex">
+                <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d105344.51315441843!2d132.38146280951338!3d34.40093832340597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e3!4m0!4m5!1s0x355a98a876f49395%3A0x22ad82fd610e187b!2z44CSNzMwLTAwMTIg5bqD5bO255yM5bqD5bO25biC5Lit5Yy65LiK5YWr5LiB5aCA!3m2!1d34.4008243!2d132.4638645!5e0!3m2!1sja!2sjp!4v1695352167438!5m2!1sja!2sjp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+                <table>
+                    <tr>
+                        <th>OPEN</th>
+                        <td>9:00~20:30</td>
+                    </tr>
+                    <tr>
+                        <th>CLOSE</th>
+                        <td>第2・4水曜日</td>
+                    </tr>
+                    <tr>
+                        <th>ADDRESS</th>
+                        <td>広島県広島市中区上八丁堀8－20</td>
+                    </tr>
+                    <tr>
+                        <th>TEL</th>
+                        <td>082-000-0000</td>
+                    </tr>
+                    <tr>
+                        <th>E-MAIL</th>
+                        <td>sample@mail.com</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+
+        <small>&copy;2023 misa kajihara</small>
+    </footer>
+</body>
+
+</html>
