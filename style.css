@@ -299,21 +299,21 @@ details[open] summary {
 }
 
 .g-j {
-    background-image: url(../image/h.geen_juice.png);
+    background-image: url(image/h.geen_juice.png);
     position: relative;
 
 }
 
 .p-j {
-    background-image: url(../image/h.purple_juice.png);
+    background-image: url(image/h.purple_juice.png);
 }
 
 .y-j {
-    background-image: url(../image/h.yellow_juice.png);
+    background-image: url(image/h.yellow_juice.png);
 }
 
 .r-j {
-    background-image: url(../image/h.red_juice.png);
+    background-image: url(image/h.red_juice.png);
 }
 
 .menu-item {
@@ -341,7 +341,7 @@ details[open] summary {
 }
 
 .nami {
-    background-image: url(../image/nami.png);
+    background-image: url(image/nami.png);
     background-repeat: repeat-x;
     height: 100px;
 }
@@ -410,7 +410,7 @@ footer {
     height: 100px;
     margin-top: 80px;
     text-align: center;
-    background-image: url(../image/footerimg.jpeg);
+    background-image: url(image/footerimg.jpeg);
     background-repeat: repeat-x;
     background-size: contain;
     background-position: bottom;
